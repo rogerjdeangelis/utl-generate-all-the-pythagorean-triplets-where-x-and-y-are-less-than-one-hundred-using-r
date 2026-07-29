@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-29T10:07:55.158216+00:00",
+  "_captured_run_id": "r_89d15b8b1ade4a85a2b3e84df754c973",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 16 rows from DATALINES.",
+    "NOTE: Wrote want (32 rows, 4 columns).",
+    "NOTE: PROC PLOT produced 1 plot(s) from 32 observations."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

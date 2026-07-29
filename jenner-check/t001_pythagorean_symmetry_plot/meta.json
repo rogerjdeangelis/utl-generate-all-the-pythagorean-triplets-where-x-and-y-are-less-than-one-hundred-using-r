@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_pythagorean_symmetry_plot",
+  "source_file": "utl-generate-all-the-pythagorean-triplets-where-x-and-y-are-less-than-one-hundred-using-r.sas",
+  "source_blob_sha": "6052a03d19b2382887534a769dfa76f562ed989c",
+  "source_commit": "895af30b1739357d11dd45e7b67f43d8dd5e3dbf",
+  "notes": "Section-1 pure-SAS core: the DATA want symmetry step (double OUTPUT with x/col_1 interchange + catx pair label) and PROC PLOT x*y='*' $ pair / box overlay, verbatim from the repo. The external R-generated SD1.TRIPS libname was replaced with an inline DATALINES seed of the 16 triples the file documents as SD1.TRIPS obs 1-16; DATA want reads WORK.TRIPS instead of SD1.TRIPS. Produces the documented WORK.WANT obs=32. Deterministic across two POSTs."
+}
