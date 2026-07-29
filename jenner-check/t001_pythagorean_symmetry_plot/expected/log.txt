@@ -1,0 +1,23 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA trips
+
+NOTE: Processing inline DATALINES (16 lines)
+
+NOTE: Read 16 rows from DATALINES.
+NOTE: Wrote trips (16 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA want
+
+
+NOTE: Read 16 rows from trips.
+NOTE: Wrote want (32 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option LS changed to 94.
+NOTE: Option PS changed to 64.
+NOTE: PROC PLOT data=want
+
+NOTE: PROC PLOT produced 1 plot(s) from 32 observations.
